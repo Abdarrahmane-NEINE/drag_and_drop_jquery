@@ -1,0 +1,41 @@
+.dropfile{
+  border: 2rem dashed #CDCACA;
+  display: block;
+  text-align: center;
+  padding:10px;
+}
+.dropfile p{
+background-color:blue;
+padding:1rem;
+}
+.dropfile img {
+  /* position : absolute; */
+  z-index : 10;
+  min-width: 70%;
+  padding:1rem;
+  /* background-color:yellow; */
+
+}
+.dropfile .hover .instructions{
+  color : blue;
+}
+.dropfile span.instructions{
+  position : absolute;
+  top : 500%;
+  color : #yellow;
+  left: 0;
+  right:0;
+  font-weight: bold;
+}
+.dropfile .hover img{
+    color : blue;
+    border : 0.1rem dashed yellow;
+}
+/* message user */
+.drag_succes {
+background: green;
+border: 0.1rem dashed green;
+border-radius: 1rem;
+padding:2rem;
+/* display: none; */
+}
